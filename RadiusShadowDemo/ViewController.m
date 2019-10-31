@@ -16,6 +16,8 @@
 @property (weak, nonatomic) IBOutlet UIView *fourthView;
 @property (weak, nonatomic) IBOutlet UIImageView *fourthSubview;
 @property (weak, nonatomic) IBOutlet UIView *fivethView;
+@property (weak, nonatomic) IBOutlet UIView *sixthView;
+@property (weak, nonatomic) IBOutlet UIView *sixthSubview;
 
 @end
 
@@ -51,6 +53,13 @@
     self.fivethView.layer.shadowOffset = CGSizeMake(1, 5);
     self.fivethView.layer.shadowOpacity = 0.8;
     self.fivethView.layer.shadowColor = [UIColor lightGrayColor].CGColor;
+    
+    self.sixthView.layer.cornerRadius = 50;
+    self.sixthView.layer.shadowOffset = CGSizeMake(1, 5);
+    self.sixthView.layer.shadowOpacity = 0.8;
+    self.sixthView.layer.shadowColor = [UIColor lightGrayColor].CGColor;
+    self.sixthSubview.layer.cornerRadius = 50;
+    self.sixthSubview.layer.masksToBounds = YES;
 }
 
 
