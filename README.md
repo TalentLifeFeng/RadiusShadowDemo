@@ -1,3 +1,3 @@
 ## RadiusShadowDemo
 
-![demo](Demo.png)
+![image](Demo.png)
